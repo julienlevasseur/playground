@@ -6,7 +6,7 @@ Here, we will demonstrate how to leverage this feature to deploy a customized Ku
 
 # Architecture
 
-![architecture.png](https://raw.githubusercontent.com/julienlevasseur/playground/assets/master/images/architecture.png)
+![architecture.png](https://raw.githubusercontent.com/julienlevasseur/playground/master/kubernetes/deploy_a_k8s_cluster_with_kops/assets/images/architecture.png)
 
 # The cluster deployement
 
@@ -131,6 +131,6 @@ Admin access:
 kops get secrets kube -oplaintext
 ```
 
-![k8s_dashboard.png](https://raw.githubusercontent.com/julienlevasseur/playground/assets/master/images/k8s_dashboard.png)
+![k8s_dashboard.png](https://raw.githubusercontent.com/julienlevasseur/playground/master/kubernetes/deploy_a_k8s_cluster_with_kops/assets/images/k8s_dashboard.png)
 
 # The Terraform approach
